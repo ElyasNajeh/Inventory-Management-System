@@ -50,7 +50,7 @@ A JavaFX desktop application for managing products, suppliers, categories, and i
 3. Build and run with the Maven Wrapper:
 
    ```powershell
-   .\mvnw.cmd clean test
+   .\mvnw.cmd clean
    .\mvnw.cmd javafx:run
    ```
 
