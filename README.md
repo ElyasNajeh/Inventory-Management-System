@@ -1,4 +1,4 @@
-# Asha Management System
+# Inventory Management System
 
 A JavaFX desktop application for managing products, suppliers, categories, and inventory shipments in a MySQL database.
 
