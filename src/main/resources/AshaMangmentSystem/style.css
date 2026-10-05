@@ -1,0 +1,98 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f4f6f9;
+}
+
+.button, .menu-button {
+    -fx-background-color: #0d1b58;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-pref-width: 220.0px;
+    -fx-pref-height: 42.0px;
+    -fx-text-fill: #E9ECEF;
+    -fx-font-size: 16.0px;
+}
+
+.button:hover {
+    -fx-background-color: #09123C;
+    -fx-text-fill: #FFFFFF;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button:disabled {
+    -fx-cursor: default;
+    -fx-opacity: 0.55;
+}
+
+.radio-button {
+    -fx-font-size: 14.0px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5.0px;
+}
+
+.text-field {
+    -fx-pref-width: 200.0px;
+    -fx-background-radius: 4px;
+}
+
+.radio-button .radio {
+    -fx-background-color: #ffffff;
+    -fx-pref-width: 20.0px;
+    -fx-pref-height: 20.0px;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #17A2B8;
+}
+
+.label {
+     -fx-font-size: 16.0px;
+}
+
+.text-field:focused, .text-area:focused, .combo-box:focused, .date-picker:focused {
+    -fx-border-color: #17A2B8;
+    -fx-border-radius: 4px;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d7dce3;
+    -fx-border-radius: 4px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e8ecf3;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.date-picker {
+    -fx-pref-width: 250.0px;
+}
+
+.date-picker > .arrow-button {
+    -fx-pref-width: 30.0px;
+    -fx-pref-height: 30.0px;
+}
+
+.date-picker > .arrow-button > .arrow {
+    -fx-pref-width: 15.0px;
+    -fx-pref-height: 15.0px;
+}
+
+.date-picker-popup > * > .spinner > .button {
+    -fx-pref-width: 25.0px;
+    -fx-pref-height: 25.0px;
+}
+
+.date-picker-popup > * > .spinner > .button > .left-arrow,
+.date-picker-popup > * > .spinner > .button > .right-arrow {
+    -fx-pref-width: 10.0px;
+    -fx-pref-height: 10.0px;
+}
+
+
