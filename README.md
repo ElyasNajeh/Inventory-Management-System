@@ -63,3 +63,8 @@ A JavaFX desktop application for managing products, suppliers, categories, and i
 - `database/schema.sql` — complete MySQL schema, constraints, foreign keys, and indexes.
 - `database/data.sql` — repeatable sample inventory data.
 - `.mvn/`, `mvnw`, `mvnw.cmd`, and `pom.xml` — Maven build and wrapper configuration.
+
+  ## Team Members
+
+- [Elyas Najeh](https://github.com/ElyasNajeh)
+- [Hareth Shoman](https://github.com/Hareth5)
